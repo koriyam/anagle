@@ -1,0 +1,216 @@
+body {
+    margin:0;
+    font-family: 'Poppins', 'ÉqÉâÉMÉmäpÉS Pro W3', 'Hiragino Kaku Gothic ProN', 'ÉÅÉCÉäÉI', 'Meiryo', 'ÇlÇr ÇoÉSÉVÉbÉN', 'MS PGothic', sans-serif;
+    background-color: #0C151D;
+    text-align: center;
+}
+body ul li {
+    list-style:none;
+}
+.header {
+    /* width:100%; */
+    height:auto;
+    position:fixed;
+    background-color: #0C151D;
+}
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+#anagle {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#keywords	{
+	width: 65%;
+	height: 16px;
+	background: #999;
+	border: none;
+	padding: 4px;
+	color: #FFF;
+	vertical-align: top;
+  border-radius: 15px;
+}
+#searchBtn	{
+	position: absolute;
+	left: 80%;
+  border-radius: 0 15px 15px 0;
+}
+*:first-child + html #searchBtn	{
+	top: 1px;
+}
+
+ul.for_search {
+  width:100%;
+  display: inline-block;
+  font-size: 0;
+  padding: 0;
+}
+ li.logo {
+   display:inline-block;
+   width:25%;
+   font-size: 18px;
+   vertical-align: middle;
+}
+li.logo a {
+   color: #ef3248;
+   font-size: 25px;
+   font-weight: bold;
+}
+li.new, li.popular {
+   display:inline-block;
+   width:20%;
+   font-size: 14px;
+   vertical-align: middle;
+   color:white;
+   text-align: center;
+}
+li.form {
+    display: inline-block;
+    width:35%;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 12px;
+    color:#fff;
+}
+.movie_company {
+    text-align: center;
+}
+.movie_company p {
+    padding: 10px;
+}
+.movie_company .gnav {
+    overflow-x: auto;
+}
+.movie_company .gnav ul {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 2px auto;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    /*background:#666666;*/
+}
+.movie_company .gnav ul li {
+    text-align: center;
+    margin-right: 1px;
+}
+.movie_company .gnav ul li:last-child {
+    margin-right: 0;
+}
+.movie_company .gnav ul li a, .movie_company .gnav ul li a:link, .movie_company .gnav ul li a:visited {
+    display: inline-block;
+    width: 65px;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+.movie_company .gnav ul li a:hover, .movie_company .gnav ul li a:active {
+    background: #afc6e2;
+}
+.movie_company .gnav {
+    -webkit-overflow-scrolling: touch;
+}
+
+.movie_company li.service_logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 11px;
+}
+
+footer {
+ margin-top: 127px;
+ background-color: #555;
+ width:100%;
+ height: 50px;
+}
+
+footer p {
+ color: #ffffff;
+ width:100%;
+}
+
+footer .copyright small {
+ color: #ffffff;
+}
+
+.container {
+ width: 100%;
+ height: auto !important;
+ margin: 0 auto;
+ position:relative;
+ max-width:1200px;
+
+}
+
+#contents {
+ padding-bottom: 100px;
+}
+
+div.contents {
+  display:inline-block;
+  width: 100%;
+  font-size: 0;
+  background: transparent;
+  margin: 11px -15px 0;
+  min-height: 75vh;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.poster {
+  width: 16%;
+  display: inline-block;
+
+}
+
+.poster img {
+  width: 90%;
+  height: auto;
+  opacity: 1;
+  margin:10px 0;
+}
+
+
+@media (max-width:768px ) {
+
+}
+@media (max-width:768px ) {
+
+}
+
+ @media (max-width:910px ) {
+   .poster {
+     width: 20%;
+   }
+ }
+
+ @media (max-width: 723px ) {
+   .poster {
+     width: 33%;
+   }
+ }
+
+ @media (max-width:480px ) {
+   .poster {
+     width: 50%;
+   }
+ }
+
+ @media (max-width:425px ) {
+     ul.for_search {
+      text-align: center;
+      padding: 0;
+      width: 100%;
+      display: inline-block;
+      font-size: 0;
+      }
+      li.logo {
+        display: block;
+        width: 100%;
+    Å@}
+}
