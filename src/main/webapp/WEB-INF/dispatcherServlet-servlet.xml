@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!--  *************** -->
+  <!--  URL Mapping     -->
+  <!--  *************** -->
+  <bean id="urlMapping"
+    class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+    <property name="mappings">
+      <props>
+        <!--  ***************** -->
+        <!--    ログイン処理    -->
+        <!--  ***************** -->
+        <prop key="/top.html">loginCtrl</prop>
+      </props>
+    </property>
+  </bean>
